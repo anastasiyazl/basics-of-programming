@@ -1,3 +1,5 @@
+require 'io/console'
 puts "Please enter any symbol"
-symbol = (Integer gets).to_r
-puts symbol
+symbol = gets
+symbol1 = symbol.ord
+puts symbol1
