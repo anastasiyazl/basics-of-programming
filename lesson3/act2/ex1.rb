@@ -7,15 +7,12 @@ else
     puts "odd number"
 end
 
-quotient1 = number / 10
-quotient2 = number / 100
-
-if (quotient1 != 0 && quotient1 < 10)
+if (10 <= number.abs && number.abs < 100)
     puts "two-digit number"
 else puts "not two-digit number"
 end
 
-if (quotient2 != 0 && quotient2 < 100)
+if (100 <= number.abs && number.abs < 1000)
     puts "three-digit number"
 else puts "not three-digit number"
 end
