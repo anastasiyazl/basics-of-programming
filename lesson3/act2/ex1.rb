@@ -10,14 +10,14 @@ end
 quotient1 = number / 10
 quotient2 = number / 100
 
-if (quotient1 != 0)
-    puts "the number have 2 digits"
-else puts "the number does not have 2 digits"
+if (quotient1 != 0 && quotient1 < 10)
+    puts "two-digit number"
+else puts "not two-digit number"
 end
 
-if (quotient2 != 0)
-    puts "the number have 3 digits"
-else puts "the number does not have 3 digits"
+if (quotient2 != 0 && quotient2 < 100)
+    puts "three-digit number"
+else puts "not three-digit number"
 end
 
 if (number > 0)
